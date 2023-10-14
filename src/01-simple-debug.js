@@ -1,6 +1,15 @@
 console.log('Simple debugging example running.')
-debugger
+
 
 let x = 99
-debugger
+
 console.log(x)
+
+const mondayMenu = {
+    cheesePlate: { soft: "Chèvre", semiSoft: "Gruyère", hard: "Manchego" },
+    fries: "Curly",
+    salad: "Cobb",
+  };
+  mondayMenu.fries = "Sweet potato";
+
+console.log(mondayMenu.fries)
